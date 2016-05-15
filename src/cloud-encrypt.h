@@ -1,13 +1,13 @@
 /***********************************************************
 *
-* Copyright (C), 2010-2014, TP-LINK TECHNOLOGIES CO., LTD.
+* Copyright (C), 2010-2014, WANGFUYU.
 * All rights reserved.
 *
 * File name  : cloud-encrypt.h 
 * Version	 : 1.0 
 * Description: header file of encrypt-handler
 *
-* Author	 : Wang FuYu <wangfuyu@tp-link.net>
+* Author	 : Wang FuYu <wangfuyu1989@foxmail.com>
 * Create Date: 2015-04-01
 * 
 * History	 : 

@@ -12,7 +12,7 @@ unsigned short gLzmaType = 0;
 
 /******************************************************************************
 * FUNCTION		: writeFilesToBuf()
-* AUTHOR		: wangfuyu <wangfuyu@tp-link.net>
+* AUTHOR		: wangfuyu <wangfuyu1989@foxmail.com>
 * DESCRIPTION	: read file data to buf
 * INPUT			: @filePath:full path of file
 				  @buf:buffer for saving file data
@@ -50,7 +50,7 @@ int getFileContentLen(char* filename, int *len)
 
 /******************************************************************************
 * FUNCTION		: writeFilesToBuf()
-* AUTHOR		: wangfuyu <wangfuyu@tp-link.net>
+* AUTHOR		: wangfuyu <wangfuyu1989@foxmail.com>
 * DESCRIPTION	: read file data to buf
 * INPUT			: @filePath:full path of file
 				  @buf:buffer for saving file data
@@ -94,7 +94,7 @@ int writeFilesToBuf(char* filePath, unsigned char* buf, int len)
 
 /******************************************************************************
 * FUNCTION		: writeBufToFile()
-* AUTHOR		: wangfuyu <wangfuyu@tp-link.net>
+* AUTHOR		: wangfuyu <wangfuyu1989@foxmail.com>
 * DESCRIPTION	: write buf data to file
 * INPUT			: 
 * OUTPUT		: 
@@ -132,7 +132,7 @@ int writeBufToFile(char* filePath, unsigned char* buf, int len)
 
 /******************************************************************************
 * FUNCTION		: getOpt()
-* AUTHOR		: wangfuyu <wangfuyu@tp-link.net>
+* AUTHOR		: wangfuyu <wangfuyu1989@foxmail.com>
 * DESCRIPTION	: 
 * INPUT			: 
 * OUTPUT		: 
@@ -176,7 +176,7 @@ static int getOpt(int argc, char** argv)
 
 /******************************************************************************
 * FUNCTION		: main()
-* AUTHOR		: wangfuyu <wangfuyu@tp-link.net>
+* AUTHOR		: wangfuyu <wangfuyu1989@foxmail.com>
 * DESCRIPTION	: 
 * INPUT			: 
 * OUTPUT		: 

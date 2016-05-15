@@ -1,13 +1,13 @@
 /***********************************************************
 *
-* Copyright (C), 2010-2013, TP-LINK TECHNOLOGIES CO., LTD.
+* Copyright (C), 2010-2013, WANGFUYU.
 * All rights reserved.
 *
 * File name  : cloud-lzma.c
 * Version    : 1.0 
 * Description: compress data by lzma 
 *
-* Author     : Wang FuYu <wangfuyu@tp-link.net>
+* Author     : Wang FuYu <wangfuyu1989@foxmail.com>
 * Create Date: 2015-03-30
 * 
 * History    : 
@@ -106,7 +106,7 @@ int getDstLen(void *src, int *len)
 
 /************************************************************
  Function   : lzmaCompData
- Author     : Wang FuYu <wangfuyu@tp-link.net>
+ Author     : Wang FuYu <wangfuyu1989@foxmail.com>
  Description: compress data
  Input      : 
  Output     : 
@@ -190,7 +190,7 @@ int lzmaCompData(char *srcFileName, char *dstFileName)
 
 /************************************************************
  Function   : lzmaUncompData
- Author     : Wang FuYu <wangfuyu@tp-link.net>
+ Author     : Wang FuYu <wangfuyu1989@foxmail.com>
  Description: uncompress data
  Input      : 
  Output     : 
@@ -278,7 +278,7 @@ int lzmaUncompData(char *srcFileName, char *dstFileName)
 
 /************************************************************
  Function   : lzmaDataProg
- Author     : Wang FuYu <wangfuyu@tp-link.net>
+ Author     : Wang FuYu <wangfuyu1989@foxmail.com>
  Description: process data
  Input      : 
  Output     : 

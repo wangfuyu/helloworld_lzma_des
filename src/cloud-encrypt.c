@@ -1,13 +1,13 @@
 /***********************************************************
 *
-* Copyright (C), 2010-2014, TP-LINK TECHNOLOGIES CO., LTD.
+* Copyright (C), 2010-2014, WANGFUYU.
 * All rights reserved.
 *
 * File name  : cloud-encrypt.c 
 * Version	 : 1.0 
 * Description: 
 *
-* Author	 : Wang FuYu <wangfuyu@tp-link.net>
+* Author	 : Wang FuYu <wangfuyu1989@foxmail.com>
 * Create Date: 2015-04-01
 * 
 * History	 : 
@@ -27,7 +27,7 @@
 #if 0
 /******************************************************************************
 * FUNCTION		: getEncryptHashKey()
-* AUTHOR		: wangfuyu <wangfuyu@tp-link.net>
+* AUTHOR		: wangfuyu <wangfuyu1989@foxmail.com>
 * DESCRIPTION	: get encrypt key from device id
 * INPUT			: 
 * OUTPUT		: encrypt key(8 bytes)
@@ -43,7 +43,7 @@ int getEncryptHashKey(char key[])
 
 /******************************************************************************
 * FUNCTION		: encryptFile()
-* AUTHOR		: wangfuyu <wangfuyu@tp-link.net>
+* AUTHOR		: wangfuyu <wangfuyu1989@foxmail.com>
 * DESCRIPTION	: encrypt buf content by DES
 * INPUT			: 
 * OUTPUT		: 
@@ -91,7 +91,7 @@ unsigned char *encryptFile(unsigned char *srcBuf, int srcLen, int *destLen)
 
 /******************************************************************************
 * FUNCTION		: decryptFile()
-* AUTHOR		: wangfuyu <wangfuyu@tp-link.net>
+* AUTHOR		: wangfuyu <wangfuyu1989@foxmail.com>
 * DESCRIPTION	: decrypt config data
 * INPUT			: 
 * OUTPUT		: 
@@ -139,7 +139,7 @@ unsigned char *decryptFile(unsigned char *srcBuf, int srcLen, int *destLen)
 
 /************************************************************
  Function   : lzmaCompData
- Author     : Wang FuYu <wangfuyu@tp-link.net>
+ Author     : Wang FuYu <wangfuyu1989@foxmail.com>
  Description: compress data
  Input      : 
  Output     : 
@@ -215,7 +215,7 @@ int desEncData(char *srcFileName, char *dstFileName)
 
 /************************************************************
  Function   : desDecData
- Author     : Wang FuYu <wangfuyu@tp-link.net>
+ Author     : Wang FuYu <wangfuyu1989@foxmail.com>
  Description: uncompress data
  Input      : 
  Output     : 
@@ -288,7 +288,7 @@ int desDecData(char *srcFileName, char *dstFileName)
 
 /******************************************************************************
 * FUNCTION		: desEncryptBuf()
-* AUTHOR		: wangfuyu <wangfuyu@tp-link.net>
+* AUTHOR		: wangfuyu <wangfuyu1989@foxmail.com>
 * DESCRIPTION	: en/decrypt buf content
 * INPUT			: 
 * OUTPUT		: 
@@ -337,7 +337,7 @@ unsigned char *desEncryptBuf(unsigned char *srcBuf, int srcLen, int *destLen, in
 
 /************************************************************
  Function   : desDecData
- Author     : Wang FuYu <wangfuyu@tp-link.net>
+ Author     : Wang FuYu <wangfuyu1989@foxmail.com>
  Description: uncompress data
  Input      : 
  Output     : 
@@ -410,7 +410,7 @@ int desEncryptFile(char *srcFileName, char *dstFileName, int type)
 
 /************************************************************
  Function   : desDataProg
- Author     : Wang FuYu <wangfuyu@tp-link.net>
+ Author     : Wang FuYu <wangfuyu1989@foxmail.com>
  Description: process data
  Input      : 
  Output     : 

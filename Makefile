@@ -37,7 +37,7 @@ include $(INCLUDE_DIR)/package.mk
 define Package/helloworld
 	SUBMENU:=Apps
 	SECTION:=utils
-	CATEGORY:=TP-LINK Proprietary Software
+	CATEGORY:=WANGFUYU Proprietary Software
 	TITLE:=helloworld -- work as a client for cloud service.
 	DEPENDS:=+liblzma +libsecurity
 	MENU:=1
